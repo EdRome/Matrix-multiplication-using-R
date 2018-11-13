@@ -29,9 +29,6 @@ multmatrix <- function(a, b){
   a_row <- nrow(a)
   same_num <- ncol(a)
   b_col <- ncol(b)
-  message(a_row)
-  message(same_num)
-  message(b_col)
   C <- matrix(0, nrow = a_row, ncol = b_col)
   
   for(i in 1:a_row){
